@@ -61,7 +61,7 @@ class DataViewModel : ViewModel() {
         return options
     }
 
-    private fun resetOrder() {
+    fun resetOrder() {
         _quantity.value = 0
         _flavor.value = ""
         _date.value = dateOptions[0]
